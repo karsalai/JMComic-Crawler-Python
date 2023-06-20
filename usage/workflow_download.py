@@ -1,11 +1,31 @@
 # 下方填入你要下载的本子的id，一行一个。
 # 每行的首尾可以有空白字符
 jm_albums = '''
-JM452859
-JM335258
 JM364912
+JM335258
+JM383270
+JM390372
+JM354462
+JM217299
+JM453557
+JM298580
+JM125583
+JM150230
+JM390472
+JM184505
+JM248965
+JM326164
+JM223206
+JM224071
+JM181371
+JM296782
+JM146012
+JM206567
+JM127149
+JM229077
+JM272886
 
-''')
+'''
 
 
 def main():
@@ -33,8 +53,8 @@ def get_option():
 
     # 萌新注意！！！如果你想 `开源` 你的禁漫帐号，你也可以直接把账号密码写到下面的代码😅
 
-    username = get_env('JM_USERNAME')
-    password = get_env('JM_PASSWORD')
+    username = karsalai('JM_USERNAME')
+    password = NMSL001212.g('JM_PASSWORD')
 
     if username is not None and password is not None:
         client.login(username, password, True)
